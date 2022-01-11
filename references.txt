@@ -1,0 +1,11 @@
+
+PHP functions, database connections, auth:
+- https://www.youtube.com/watch?v=qVU3V0A05k8&list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-
+
+PHP pagination:
+- https://www.myprogrammingtutorials.com/create-pagination-with-php-and-mysql.html
+- https://github.com/simonjsuh/pagination-in-php/blob/master/index.php
+
+other: 
+- https://www.php.net/manual/en/
+- https://www.w3schools.com/php/

@@ -1,0 +1,44 @@
+
+CREATE DATABASE simple_tenantms;
+
+USE simple_tenantms;
+
+CREATE TABLE admin_users (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	username VARCHAR(255) NOT NULL UNIQUE,
+	password VARCHAR(255) NOT NULL,
+	admin TINYINT(1)
+);
+
+CREATE TABLE renters (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(255) NOT NULL,
+	unit VARCHAR(255) NOT NULL UNIQUE,
+	mobile_num VARCHAR(25) NOT NULL,
+	date_in DATETIME NOT NULL,
+	date_out DATETIME
+);
+
+CREATE TABLE renter_unit (
+	id INT AUTO_INCREMENT,
+	renter_id INT NOT NULL,
+	unit_name VARCHAR(255) NOT NULL,
+	date_paid DATETIME NOT NULL,
+	amount INT,
+	remarks TEXT,
+	PRIMARY KEY(id),
+	FOREIGN KEY (renter_id) REFERENCES renters(id)
+);
+
+// disregard table users
+CREATE TABLE users (
+	id INT AUTO_INCREMENT,
+	renter_id INT NOT NULL,
+	name VARCHAR(255) NOT NULL,
+	email VARCHAR(255) NOT NULL UNIQUE,
+	username VARCHAR(255) NOT NULL UNIQUE,
+	password VARCHAR(255) NOT NULL,
+	admin TINYINT(1),
+	PRIMARY KEY (id),
+	FOREIGN KEY (renter_id) REFERENCES renters(id)
+);
