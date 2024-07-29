@@ -1,4 +1,6 @@
-A simple tenant management system
+# Simple Tenant Management System
+
+A simple management system for tenants.
 
 ## Tech used: ##
 * [Bootstrap](https://getbootstrap.com "Bootstrap")
