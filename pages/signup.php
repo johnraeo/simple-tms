@@ -14,8 +14,8 @@
   <title>Simple Tenant Mangement System</title>
   <link rel="icon" type="image/x-icon" href="../assets/tenant.png">
 
-  <link href="../bootstrap-5.1.1-dist/css/bootstrap.min.css" rel="stylesheet" >
-  <link href="../css/signup.css" rel="stylesheet" type="text/css">
+  <link href="../assets/bootstrap-5.1.1-dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link href="../assets/css/signup.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   

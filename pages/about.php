@@ -12,8 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Project 1</title>
 
-  <link href="../bootstrap-5.1.1-dist/css/bootstrap.min.css" rel="stylesheet" >
-  <link href="../css/about.css" rel="stylesheet" type="text/css">
+  <link href="../assets/bootstrap-5.1.1-dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link href="../assets/css/about.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   
