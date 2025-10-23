@@ -1,0 +1,11 @@
+
+.section-1 {
+  /* background: black; */
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-1 .box-1 h3{
+  text-align: center;
+}

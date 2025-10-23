@@ -1,0 +1,59 @@
+
+.section-1 {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #ccc;
+}
+
+.section-1 .box-1 {
+  background: #fff;
+  border-radius: 1em;
+  padding: 2rem;
+}
+
+.section-1 .box-1 h5 {
+  padding: .5em 0 1em 0;
+}
+
+/* .section-1 .box-1 button {
+  width: 100%;
+  background: rgb(231, 235, 235);
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+} */
+
+.section-1 .box-2 {
+  background: #fff;
+  border-radius: 1em;
+  padding: 2rem;
+}
+
+.section-1 .box-2-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 3em 0;
+}
+
+.section-add-modal, .section-edit-modal, .section-delete-modal, .section-abandon-modal {
+  display: none;
+  visibility: hidden;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 1;
+  top: 0;
+}
+
+.section-add-modal form, .section-edit-modal form, .section-delete-modal .box-1, .section-abandon-modal .box-1 {
+  background-color: white;
+  padding: 15px;
+  border-radius: 1em;
+}
+
+.page-item.active .page-link {
+  z-index: unset;
+}
